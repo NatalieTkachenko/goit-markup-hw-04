@@ -591,18 +591,29 @@ span.alt-logo-color {
     list-style: none;
 }
 
-.footer-net-icon-thumb {
+/*.footer-net-icon-thumb {
     display: flex;
     justify-content: center;
     align-items: center;
 
+    /*width: 44px;
+    height: 44px;
+    border-radius: 50%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+}*/
+
+.footer-net-icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     width: 44px;
     height: 44px;
     border-radius: 50%;
 
-    background-color: rgba(255, 255, 255, 0.1);;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-
 
 a.footer-net-link:hover .footer-net-icon-box,
 a.footer-net-link:focus .footer-net-icon-box {
